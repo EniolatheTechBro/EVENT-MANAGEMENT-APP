@@ -3,7 +3,7 @@
 
 
 # Ignore DB.js file
-/DB/DB.js
+/DB.js
 
 ### Node ###
 # Logs
