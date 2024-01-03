@@ -1,5 +1,5 @@
 const mongoose = require('mongoose')
-const mongoDBURL = require('./DB/DB')
+const mongoDBURL = require('../DB')
 async function connectDB(){
     try {
         await mongoose.connect(mongoDBURL)
